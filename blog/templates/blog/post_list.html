@@ -11,7 +11,7 @@
       <h1><a href="/">Random Blog in the Web</a></h1>
     </header>
 
-    <article>
+    <!-- <article>
       <time>published: 13.04.2025, 10:17</time>
       <h2><a href="">First post!</a></h2>
       <p>
@@ -20,9 +20,15 @@
         soluta! Nemo recusandae itaque accusantium, autem atque laboriosam
         voluptatem unde aliquid laudantium!
       </p>
-    </article>
-
+    </article> -->
+    {% for post in posts %}
     <article>
+      <time>published: {{ post.published_date }}</time>
+      <h2><a href="">{{ post.title }} </a></h2>
+      <p>{{ post.text|linebreaksbr }}</p>
+    </article>
+    {% endfor %}
+    <!-- <article>
       <time>published: 20.04.2025, 15:26</time>
       <h2><a href="">Second post</a></h2>
       <p>
@@ -30,6 +36,6 @@
         illo ab voluptate nemo facere, cupiditate non blanditiis quis culpa
         pariatur. Illo quidem voluptatum vitae deserunt. Numquam, quidem porro.
       </p>
-    </article>
+    </article> -->
   </body>
 </html>
