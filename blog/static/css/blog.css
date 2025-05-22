@@ -4,10 +4,6 @@ h2 a {
   font-family: "Jersey 15", sans-serif;
 }
 
-body {
-  padding-left: 15px;
-}
-
 a {
   text-decoration: none;
 }
@@ -73,13 +69,13 @@ h4 {
 
 .btn-secondary,
 .btn-secondary:visited {
-  color: rgb(252, 239, 219);
+  color: rgb(119, 99, 229);
   background: none;
-  border-color: rgb(252, 239, 219);
+  border-color: rgb(119, 99, 229);
   margin-left: 15px;
 }
 
 .btn-secondary:hover {
   color: #ffffff;
-  background-color: papayawhip;
+  background-color: rgb(207, 29, 142);
 }
