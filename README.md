@@ -4,6 +4,6 @@ Basic blog web application with options to create and edit posts for logged in u
 **Link:** https://iskarova.pythonanywhere.com/
 
 The project is created solely for the learning purposes; to shift focus from theoretical problems in Python and gain more practical knowledge using Django.\
-The project is still in progress.
+The project is _**still in progress**_.
 
 **Stack:** Python, Django, SQLite, HTML&CSS
